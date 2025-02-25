@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BuscaCEP</title>
+</head>
+<body>
+    <header>
+        Buscador de CEP
+    </header>
+    <div class="centralizador">
+        <div class="caixa">
+            <div class="form">
+                <input id="cep" type="text" />
+                <button onclick="getCepInfo()">
+                    Procurar
+                </button>
+                <button onclick="clearInput()">
+                    Limpar
+                </button>
+            </div>
+            <div class="info">
+                <p>Rua: <span id="rua"></span></p>
+                <p>Bairro: <span id="bairro"></span></p>
+                <p>Cidade: <span id="cidade"></span></p>
+                <p>Estado: <span id="estado"></span></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <h5>Buscar CEP por endereço. Descubra o CEP de um endereço facilmente.</h5>
+            <p>© Copyright 2025 - BuscaCEP</p>
+        </div>
+    </footer>
+    <script src="code.js"></script>
+</body>
+</html>

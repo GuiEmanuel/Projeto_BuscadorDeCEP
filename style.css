@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+header{
+    text-align: center;
+    color: white;
+    font-size:larger;
+    background-color: rgb(33, 2, 2);
+    padding: 2% 0% 2% 0%;
+    margin-bottom: 30px;
+}
+.centralizador{
+    display: flex;
+    justify-content: center;
+}
+.caixa{
+    background-color: rgba(128, 128, 128, 0.319);
+    padding: 20px;
+    width: 350px;
+    height: 250px;
+    border-radius: 15%;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 40px;
+}
+.info{
+    display: grid;
+    justify-content: center;
+    gap: 15px;
+    color: rgb(182, 165, 81);
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    color: white;
+    height: 92px;
+    width: 1536px;
+    background-color: rgb(33, 2, 2);
+}
+footer div{
+    padding-top: 20px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+input, button{
+    border-radius: 13px;
+    padding: 3px;
+}
